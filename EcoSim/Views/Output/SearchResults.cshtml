@@ -1,0 +1,25 @@
+﻿@model List<string>
+@{
+    Layout = null;
+}
+
+<style>
+    * {
+        font-family: Consolas;
+        font-size: 14px;
+    }
+
+    div {
+        height:16px;
+    }
+</style>
+
+<h1>Iteration Overview</h1>
+
+@if (Model != null)
+{
+    foreach (var entry in Model)
+    {
+        <div>@entry</div>
+    }
+}
