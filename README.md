@@ -2,31 +2,28 @@
 
 TrEcSim is a simple-to-use web-aplication that runs either from a localhost or from a server.
 
-## Installation
+## Installation (local host only)
 
-```sh
-Local Setup
-```
 Requirements: 
-```sh 
+
 Microsoft Windows (Win 8 or later)
 Microsoft Visual Studio
 Microsoft SQL Server Management Studio (SSMS [1])
-SQLExpress
+Microsoft SQLExpress
 Enable Internet Information Services
-```
+
 Steps:
 ## 1 Clone Repository on local machine
 
-## 2.1 Mapping website using ```sh Local IIS```
+## 2.1 Mapping website using Local IIS
     Open VisualStudio as Administrator
     In VisualStudio, right-click the EcoSim project and set it as Startup Project, then
     go to EcoSim -> Properties -> Web -> Servers and select Local IIS
     Enter a desired domain name e.g. www.my-trecsim.local and click Create Virtual Directory
 ### 2.1.1 
-    In IIS, create a new Website and set target directory as ```sh %repoPath%/EcoSim ```
+    In IIS, create a new Website and set target directory as %repoPath%/EcoSim
 ### 2.1.2 
-    Click on website and select ```sh Edit Bindings ``` option from the right-hand menu
+    Click on website and select Edit Bindings option from the right-hand menu
 ### 2.1.3 
     Add a binding with the domain name chosen in 2.1 and ports (and IP's if need be) for mapping
 ### 2.1.4
