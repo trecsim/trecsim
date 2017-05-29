@@ -5,12 +5,13 @@ TrEcSim is a simple-to-use web-aplication that runs either from a localhost or f
 ## Installation (local host only)
 
 Requirements: 
-
+```
 Microsoft Windows (Win 8 or later)
 Microsoft Visual Studio
 Microsoft SQL Server Management Studio (SSMS [1])
 Microsoft SQLExpress
 Enable Internet Information Services
+```
 
 Steps:
 ## 1 Clone Repository on local machine
