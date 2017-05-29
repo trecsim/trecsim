@@ -16,7 +16,7 @@ Enable Internet Information Services
 Steps:
 ## 1 Clone Repository on local machine
 
-## 2.1 Mapping website using Local IIS
+## 2.1 Mapping web-app using Local IIS
     Open VisualStudio as Administrator
     In VisualStudio, right-click the EcoSim project and set it as Startup Project, then
     go to EcoSim -> Properties -> Web -> Servers and select Local IIS
@@ -32,7 +32,7 @@ Steps:
     e.g. www.my-trecsim.local 127.0.0.1
     ** make sure your are not behind a proxy, or packet forwarding will not work
 
-## 2.2 Using IISExpress
+## 2.2 Mapping web-app using IISExpress
     Open VisualStudio
     In VisualStudio, right-click the EcoSim project and set it as Startup Project, then
     go to EcoSim -> Properties -> Web -> Servers and select IIS Express
