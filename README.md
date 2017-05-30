@@ -17,7 +17,7 @@ Steps:
 ## 1 Clone Repository on local machine
 
 ## 2.1 Mapping web-app using Local IIS
-    Open VisualStudio as Administrator
+    Start VisualStudio as Administrator and open EcoSim.sln
     In VisualStudio, right-click the EcoSim project and set it as Startup Project, then
     go to EcoSim -> Properties -> Web -> Servers and select Local IIS
     Enter a desired domain name e.g. www.my-trecsim.local and click Create Virtual Directory
@@ -33,11 +33,11 @@ Steps:
     ** make sure your are not behind a proxy, or packet forwarding will not work
 
 ## 2.2 Mapping web-app using IISExpress
-    Open VisualStudio
+    Start VisualStudio and open EcoSim.sln
     In VisualStudio, right-click the EcoSim project and set it as Startup Project, then
     go to EcoSim -> Properties -> Web -> Servers and select IIS Express
     Choose a port and click Create Virtual Directory
-    ** whenever you want to run the app in this mode, you have to open VisualStudio and from the top-sde taskbar
+    ** whenever you want to run the app in this mode, you have to open VisualStudio and from the top-side taskbar
     choose Release from the Solution Configuration dropdown (next to the Redo button) and press F5 to start the app
     in your prefered browser (you can open it in any other browser also, once it has started)
 
