@@ -11,7 +11,6 @@ using BusinessLogic.Enum;
 using BusinessLogic.ModelCore;
 using BusinessLogic.Models;
 using EcoSim.Models;
-using Models;
 
 namespace EcoSim.Controllers
 {
@@ -258,6 +257,32 @@ namespace EcoSim.Controllers
         public ActionResult Details(int id)
         {
             return View(id);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult> Visualize(int id)
+        {
+            var simulation = await SimulationCore.GetFullSimulationAsync(id).ConfigureAwait(false);
+
+            var nodes = new List<VisJsNode>();
+            foreach (var node in simulation.Network)
+            {
+                nodes.Add(new VisJsNode(node, simulation.Links));
+            }
+
+            var edges = new List<VisJsEdge>();
+            foreach (var link in simulation.Links)
+            {
+                edges.Add(new VisJsEdge(link));
+            }
+
+            var graph = new VisJsGraph
+            {
+                nodes = nodes,
+                edges = edges
+            };
+
+            return View(graph);
         }
     }
 }

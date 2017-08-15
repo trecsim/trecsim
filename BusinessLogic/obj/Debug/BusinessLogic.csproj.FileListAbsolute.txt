@@ -16,3 +16,21 @@ C:\Users\Calin Sicoe\documents\visual studio 2015\Projects\EcoSim\BusinessLogic\
 C:\Users\Calin Sicoe\documents\visual studio 2015\Projects\EcoSim\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 C:\Users\Calin Sicoe\documents\visual studio 2015\Projects\EcoSim\BusinessLogic\obj\Debug\BusinessLogic.dll
 C:\Users\Calin Sicoe\documents\visual studio 2015\Projects\EcoSim\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\BusinessLogic.dll.config
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\AutoMapper.dll
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\DataLayer.dll
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\EntityFramework.dll
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\Models.dll
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\Newtonsoft.Json.dll
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\DataLayer.pdb
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\Models.pdb
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\AutoMapper.xml
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\EntityFramework.xml
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitRepos\trecsim\BusinessLogic\bin\Debug\Newtonsoft.Json.xml
+D:\GitRepos\trecsim\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+D:\GitRepos\trecsim\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\GitRepos\trecsim\BusinessLogic\obj\Debug\BusinessLogic.pdb
